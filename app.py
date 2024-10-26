@@ -64,7 +64,7 @@ def index():
     return render_template("title.html")
 
 
-@app.route("/analyse")
+@app.route("/analysis")
 def analyse_route():
     return render_template("index.html")
 
